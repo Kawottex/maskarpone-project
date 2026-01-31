@@ -23,7 +23,8 @@ public class FlowAscenseur : MonoBehaviour
     {
         m_playableAscenseurIntro.Play();
 
-        yield return new WaitUntil(() => m_playableAscenseurIntro.playableGraph.IsPlaying());
-        yield return new WaitWhile(() => m_playableAscenseurIntro.playableGraph.IsPlaying());
+        yield return new WaitWhile(() => m_playableAscenseurIntro.state == PlayState.Playing);
+
+        yield return m_typewriterText.TypeRoutine("Bonjour Mascaca ! Comment vas-tu ?");
     }
 }

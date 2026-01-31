@@ -17,7 +17,7 @@ public class TypewriterText : MonoBehaviour
         typingRoutine = StartCoroutine(TypeRoutine(_text));
     }
 
-    IEnumerator TypeRoutine(string _text)
+    public IEnumerator TypeRoutine(string _text)
     {
         m_text.text = "";
 
