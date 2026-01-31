@@ -5,7 +5,6 @@ using UnityEngine.Playables;
 
 public class SubtitleTrackMixer : PlayableBehaviour
 {
-    public const float DELAY = 0.03f;
     public const float MAX_OPACITY = 0.7f;
 
     public override void ProcessFrame(Playable playable, FrameData info, object playerData)
@@ -49,14 +48,27 @@ public class SubtitleTrackMixer : PlayableBehaviour
 
     private string GetDynamicText(double _time, SubtitleBehaviour _subtitleBehaviour)
     {
+        if (_subtitleBehaviour.m_user == string.Empty)
+        {
+            return _subtitleBehaviour.m_text;
+        }
+
         string res = $"{_subtitleBehaviour.m_user}: ";
 
         double increment = 0;
 
-        foreach (char c in _subtitleBehaviour.m_text)
+        for (int i = 0; i < _subtitleBehaviour.m_text.Length; ++i)
         {
-            res += c;
-            increment += DELAY;
+            char character = _subtitleBehaviour.m_text[i];
+            res += _subtitleBehaviour.m_text[i];
+
+            if (i != _subtitleBehaviour.m_text.Length - 1 && character == '\\')
+            {
+                ++i;
+                res += _subtitleBehaviour.m_text[i];
+            }
+
+            increment += SubtitleClip.DELAY;
 
             if (_time < increment)
             {
@@ -66,4 +78,5 @@ public class SubtitleTrackMixer : PlayableBehaviour
 
         return res;
     }
+
 }
