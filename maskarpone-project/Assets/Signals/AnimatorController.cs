@@ -9,6 +9,9 @@ public class AnimatorController : MonoBehaviour
     private void Awake()
     {
         Assert.IsNotNull(m_animator);
+
+        float offset = Random.value;
+        m_animator.Play("Idle", 0, offset);
     }
 
     public void SetIdle() => m_animator.SetInteger("State", 0);

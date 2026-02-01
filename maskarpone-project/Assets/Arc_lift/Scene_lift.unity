@@ -327,6 +327,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 205595596013762233, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
   m_PrefabInstance: {fileID: 241442579}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &241442581 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5934807887218279873, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
+  m_PrefabInstance: {fileID: 241442579}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
 --- !u!1 &530829376
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 16777215
+      value: 939524095
       objectReference: {fileID: 0}
     - target: {fileID: 3625183496087314904, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -791,6 +802,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5343290114273408594, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343290114273408594, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5343290114273408594, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
@@ -1269,6 +1284,8 @@ PlayableDirector:
     value: {fileID: 851350208}
   - key: {fileID: 1926361730471370688, guid: 52a65875cbf883d4aa94858afebb280b, type: 2}
     value: {fileID: 778360790}
+  - key: {fileID: 6835554036103706710, guid: db8b1a5905d3e7245928b66999f26bd9, type: 2}
+    value: {fileID: 241442581}
   m_ExposedReferences:
     m_References:
     - d31f508d82302ba4abc63bfc0b28c594: {fileID: 0}
