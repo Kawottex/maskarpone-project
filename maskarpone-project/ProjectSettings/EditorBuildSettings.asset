@@ -23,6 +23,39 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Arc_cafet_post_lift/Scene_cafet_post_lift.unity
     guid: 25b7c4134eb31bd4aaa20580ecb8351d
+  - enabled: 1
+    path: Assets/Arc_cafet_paola/Scene_cafet_paola.unity
+    guid: 1b5ad23c54dfc47449cabb8e8cb99f2e
+  - enabled: 1
+    path: Assets/Arc_cafet_patron/Scene_cafet_patron.unity
+    guid: 61d3577392fd1fa4fa30f54b35196552
+  - enabled: 1
+    path: Assets/Arc_cafet_solo/Scene_cafet_solo.unity
+    guid: 25ea6c9447e381345a681b43158beefe
+  - enabled: 1
+    path: Assets/Arc_cafet_thomas/Scene_cafet_thomas.unity
+    guid: 25d27b2938d53db4bb9698d1a28c8c4d
+  - enabled: 1
+    path: Assets/Arc_meeting_sexism/Scene_meeting_sexism.unity
+    guid: 258d815fb52407a4e926b4a95fc0642b
+  - enabled: 1
+    path: Assets/Arc_openspace/Scene_openspace.unity
+    guid: 03347430ce2bace4483e5450b5ce5176
+  - enabled: 1
+    path: Assets/Arc_RH_arret_de_travail 1/Scene_RH_arret_de_travail.unity
+    guid: f7839239f255a474d8a1046db69252d8
+  - enabled: 1
+    path: Assets/Arc_RH_paola/Scene_RH_paola.unity
+    guid: 0a5e471a5836a714b90f849d9d12d26e
+  - enabled: 1
+    path: Assets/Arc_RH_promotion/Scene_RH_promotion.unity
+    guid: 0fb77e521ea1c0f488a60d5610ffb896
+  - enabled: 1
+    path: Assets/Arc_RH_speedrun/Scene_RH_speedrun.unity
+    guid: c5cb773500605eb459124f672bae1015
+  - enabled: 1
+    path: Assets/Arc_RH_thomas/Scene_RH_thomas.unity
+    guid: 0e09a117f3ac17c4eb88ea1084e88b85
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
