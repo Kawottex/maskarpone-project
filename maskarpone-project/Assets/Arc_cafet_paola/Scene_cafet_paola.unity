@@ -489,11 +489,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &627942761 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4597498572041117943, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
-  m_PrefabInstance: {fileID: 1081385612}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &770880367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -884,6 +879,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+--- !u!1 &1081385615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4532245108764033940, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
+  m_PrefabInstance: {fileID: 1081385612}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1349530124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1027,7 +1027,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1497659166}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: dff959c2697422241945c7f6d4e5786b, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 14403356e033af443a9415b0b1b5e2a2, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -1220,11 +1220,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe16989b5edcc6459f0a1dda3283d8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlowManager
-  m_currentSituation: {fileID: 11400000, guid: 9fae758209e5dda4483869b822a24ea7, type: 2}
+  m_currentSituation: {fileID: 11400000, guid: dc9f4b2e3fdc7864e9afe0f86680438a, type: 2}
   m_playableDirector: {fileID: 1497659167}
   m_maskUIRoot: {fileID: 1349530126}
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
-  m_miiObject: {fileID: 627942761}
+  m_maskRoot: {fileID: 1081385615}
 --- !u!1 &1889779699
 GameObject:
   m_ObjectHideFlags: 0
