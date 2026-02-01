@@ -971,10 +971,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaskUIRoot
       objectReference: {fileID: 0}
+    - target: {fileID: 1195204655396135104, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 4140782261678865068, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876537776067051925, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6121911039416099646, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000015258789
+      objectReference: {fileID: 0}
     - target: {fileID: 7096550965353439879, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
       propertyPath: m_flowManager
       value: 
       objectReference: {fileID: 1715010404}
+    - target: {fileID: 8587723451734825874, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1248,6 +1268,7 @@ MonoBehaviour:
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
   m_maskRoot: {fileID: 0}
   m_isBeforeFinalScene: 0
+  m_isFinalScene: 1
 --- !u!1 &1889779699
 GameObject:
   m_ObjectHideFlags: 0

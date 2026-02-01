@@ -1340,6 +1340,7 @@ MonoBehaviour:
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
   m_maskRoot: {fileID: 0}
   m_isBeforeFinalScene: 0
+  m_isFinalScene: 1
 --- !u!1 &1889779699
 GameObject:
   m_ObjectHideFlags: 0

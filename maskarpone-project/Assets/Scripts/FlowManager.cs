@@ -25,6 +25,9 @@ public class FlowManager : MonoBehaviour
     [SerializeField]
     private bool m_isBeforeFinalScene = false;
 
+    [SerializeField]
+    private bool m_isFinalScene = false;
+
     private EndGameFlowManager m_endGameFlowManager = null;
 
     private void Start()
@@ -39,6 +42,10 @@ public class FlowManager : MonoBehaviour
         if (m_isBeforeFinalScene)
         {
             EndGameFlow();
+        }
+        else if (m_isFinalScene)
+        {
+            FinalSceneFlow();
         }
         else
         {
@@ -123,6 +130,13 @@ public class FlowManager : MonoBehaviour
     {
         string currentSceneName = m_currentSituation.Place.LoadedScene;
         string finalScene = m_endGameFlowManager.GetFinalSceneToLoad();
+        SceneLoader.Instance.SwitchScene(currentSceneName, finalScene);
+    }
+
+    private void FinalSceneFlow()
+    {
+        string currentSceneName = m_currentSituation.Place.LoadedScene;
+        string finalScene = "GameOverScene";
         SceneLoader.Instance.SwitchScene(currentSceneName, finalScene);
     }
 }
