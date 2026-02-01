@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SOMeetingSexismPlace
   m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
   m_name: Meeting Sexism
-  m_loadedScene: {fileID: 102900000, guid: 258d815fb52407a4e926b4a95fc0642b, type: 3}
+  m_loadedScene: Scene_meeting_sexism

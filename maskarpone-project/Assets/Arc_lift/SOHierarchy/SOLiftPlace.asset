@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SOLiftPlace
   m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
   m_name: Meeting
-  m_loadedScene: {fileID: 102900000, guid: 731c39131ff71a246b2f90e970522b13, type: 3}
+  m_loadedScene: Scene_lift

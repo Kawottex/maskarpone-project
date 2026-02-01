@@ -104,8 +104,8 @@ public class FlowManager : MonoBehaviour
 
     private void LoadNextSituationScene(SituationSO nextSituation)
     {
-        string currentSceneName = m_currentSituation.Place.LoadedScene.name;
-        string nextSceneName = nextSituation.Place.LoadedScene.name;
+        string currentSceneName = m_currentSituation.Place.LoadedScene;
+        string nextSceneName = nextSituation.Place.LoadedScene;
         SceneLoader.Instance.SwitchScene(currentSceneName, nextSceneName);
     }
 
@@ -116,8 +116,8 @@ public class FlowManager : MonoBehaviour
 
     private void EndGameFlow()
     {
-        string currentSceneName = m_currentSituation.Place.LoadedScene.name;
-        SceneAsset finalScene = m_endGameFlowManager.GetFinalSceneToLoad();
-        SceneLoader.Instance.SwitchScene(currentSceneName, finalScene.name);
+        string currentSceneName = m_currentSituation.Place.LoadedScene;
+        string finalScene = m_endGameFlowManager.GetFinalSceneToLoad();
+        SceneLoader.Instance.SwitchScene(currentSceneName, finalScene);
     }
 }

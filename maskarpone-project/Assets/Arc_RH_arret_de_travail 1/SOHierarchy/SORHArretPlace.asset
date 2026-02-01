@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SORHArretPlace
   m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
   m_name: RH Arret
-  m_loadedScene: {fileID: 102900000, guid: f7839239f255a474d8a1046db69252d8, type: 3}
+  m_loadedScene: Scene_RH_arret_de_travail

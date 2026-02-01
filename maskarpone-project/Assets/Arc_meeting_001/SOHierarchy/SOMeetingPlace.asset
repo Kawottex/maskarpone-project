@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SOMeetingPlace
   m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
   m_name: Meeting
-  m_loadedScene: {fileID: 102900000, guid: 1b7fcd2551c6f0847b4a4a498f0b9579, type: 3}
+  m_loadedScene: Scene_meeting

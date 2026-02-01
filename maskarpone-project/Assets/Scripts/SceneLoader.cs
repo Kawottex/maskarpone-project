@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     [SerializeField]
-    private SceneAsset m_firstMapToLoad;
+    private string m_firstMapToLoad;
 
     public static SceneLoader Instance { get; private set; }
 
@@ -33,10 +33,13 @@ public class SceneLoader : MonoBehaviour
 
     private IEnumerator LoadFirstMap()
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(m_firstMapToLoad.name, LoadSceneMode.Additive);
-        while (!asyncLoad.isDone)
+        if (SceneManager.loadedSceneCount <= 1)
         {
-            yield return null;
+            AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(m_firstMapToLoad, LoadSceneMode.Additive);
+            while (!asyncLoad.isDone)
+            {
+                yield return null;
+            }
         }
     }
 

@@ -7,7 +7,7 @@ using System;
 public struct SceneConsequence
 {
     public ConsequenceSO m_consequence;
-    public SceneAsset m_scene;
+    public string m_scene;
 }
 
 public class EndGameFlowManager : MonoBehaviour
@@ -26,7 +26,7 @@ public class EndGameFlowManager : MonoBehaviour
         m_flowManager.RegisterEndGameFlowManager(this);
     }
 
-    public SceneAsset GetFinalSceneToLoad()
+    public string GetFinalSceneToLoad()
     {
         int max = 0;
         ConsequenceSO mostConsequence = null;

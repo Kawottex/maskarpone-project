@@ -11,10 +11,10 @@ public class FlowAscenseur : MonoBehaviour
     private PlayableDirector m_playableAscenseurIntro = null!;
 
     [SerializeField]
-    private SceneAsset m_liftScene;
+    private string m_liftScene;
 
     [SerializeField]
-    private SceneAsset m_introScene;
+    private string m_introScene;
 
     private void Awake()
     {
@@ -29,6 +29,6 @@ public class FlowAscenseur : MonoBehaviour
 
         yield return new WaitWhile(() => m_playableAscenseurIntro.state == PlayState.Playing);
 
-        SceneLoader.Instance.SwitchScene(m_introScene.name, m_liftScene.name);
+        SceneLoader.Instance.SwitchScene(m_introScene, m_liftScene);
     }
 }

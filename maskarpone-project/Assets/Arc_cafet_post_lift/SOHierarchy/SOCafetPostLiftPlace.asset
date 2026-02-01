@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SOCafetPostLiftPlace
   m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
   m_name: Meeting
-  m_loadedScene: {fileID: 102900000, guid: 25b7c4134eb31bd4aaa20580ecb8351d, type: 3}
+  m_loadedScene: Scene_cafet_post_lift

@@ -149,8 +149,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlowAscenseur
   m_playableAscenseurIntro: {fileID: 1506321217}
-  m_liftScene: {fileID: 102900000, guid: 731c39131ff71a246b2f90e970522b13, type: 3}
-  m_introScene: {fileID: 102900000, guid: 393223636b899e54ca0c312f45386b35, type: 3}
+  m_liftScene: Scene_lift
+  m_introScene: Scene_intro
 --- !u!4 &225718376
 Transform:
   m_ObjectHideFlags: 0
@@ -319,11 +319,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6818032562341450091, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: field of view
-      value: 74.6
+      value: 60.000004
       objectReference: {fileID: 0}
     - target: {fileID: 6818032562341450091, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: orthographic size
-      value: 0.75
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 7901792812367435650, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -331,11 +331,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7901792812367435650, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.05
+      value: 2.06
       objectReference: {fileID: 0}
     - target: {fileID: 7901792812367435650, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6
+      value: -2.231
       objectReference: {fileID: 0}
     - target: {fileID: 7901792812367435650, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: m_LocalRotation.w
