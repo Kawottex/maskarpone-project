@@ -232,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 402653183
+      value: 939524095
       objectReference: {fileID: 0}
     - target: {fileID: 3625183496087314904, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1265,6 +1265,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 205595596013762233, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
   m_PrefabInstance: {fileID: 1081385612}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1081385614 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5934807887218279873, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
+  m_PrefabInstance: {fileID: 1081385612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
 --- !u!1001 &1349530124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1408,7 +1419,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1497659166}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 6f2223b3fac165949bd1e691b690292c, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: ebe90f0d36510a541a6f0f9817fbdd85, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -1484,6 +1495,14 @@ PlayableDirector:
     value: {fileID: 720906845}
   - key: {fileID: -2639262513243060259, guid: ebe90f0d36510a541a6f0f9817fbdd85, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -488064579771963220, guid: 6f2223b3fac165949bd1e691b690292c, type: 2}
+    value: {fileID: 1081385614}
+  - key: {fileID: -3853230914096085832, guid: a3d01721f90bea84b9d1abff6230ec58, type: 2}
+    value: {fileID: 1081385614}
+  - key: {fileID: -4323478209700959479, guid: e595d6def222fd346b50c5f0084d7515, type: 2}
+    value: {fileID: 1081385614}
+  - key: {fileID: -8509236826978792215, guid: ebe90f0d36510a541a6f0f9817fbdd85, type: 2}
+    value: {fileID: 1081385614}
   m_ExposedReferences:
     m_References:
     - d31f508d82302ba4abc63bfc0b28c594: {fileID: 0}
