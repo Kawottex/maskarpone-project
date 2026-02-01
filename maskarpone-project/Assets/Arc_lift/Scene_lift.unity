@@ -386,6 +386,7 @@ MonoBehaviour:
   m_playableDirector: {fileID: 1760166487}
   m_maskUIRoot: {fileID: 2113835784}
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
+  m_miiObject: {fileID: 241442581}
 --- !u!1 &607806718
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +791,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5343290114273408594, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343290114273408594, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5343290114273408594, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}

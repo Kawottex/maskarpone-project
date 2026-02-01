@@ -18,6 +18,9 @@ public class FlowManager : MonoBehaviour
     [SerializeField]
     private GameObject m_3DMaskPrefab = null;
 
+    [SerializeField]
+    private GameObject m_miiObject = null;
+
     private void Start()
     {
         StartCoroutine(MainFlow());
@@ -55,11 +58,19 @@ public class FlowManager : MonoBehaviour
         {
             targetRenderer.material.mainTexture = selectedMask.Mask3DSprite.texture;
         }
+
         yield return new WaitForSeconds(3.0f);
+        spawnedMask.GetComponent<Animator>().enabled = false;
+        spawnedMask.transform.SetParent(m_miiObject.transform, true);
+
+        // fix degueux, pas le temps d'investiguer plus
+        spawnedMask.transform.position = new Vector3(spawnedMask.transform.position.x, spawnedMask.transform.position.y, spawnedMask.transform.position.z + 0.5f);
     }
 
     private void LoadNextSituationScene(SituationSO nextSituation)
     {
-        SceneLoader.Instance.SwitchScene(m_currentSituation.Place.LoadedScene.name, nextSituation.Place.LoadedScene.name);
+        string currentSceneName = m_currentSituation.Place.LoadedScene.name;
+        string nextSceneName = nextSituation.Place.LoadedScene.name;
+        SceneLoader.Instance.SwitchScene(currentSceneName, nextSceneName);
     }
 }

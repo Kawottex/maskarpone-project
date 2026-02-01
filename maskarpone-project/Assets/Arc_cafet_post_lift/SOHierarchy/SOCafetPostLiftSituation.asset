@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676fd12cd7a87de458f8f6b5a8500b16, type: 3}
+  m_Name: SOCafetPostLiftSituation
+  m_EditorClassIdentifier: Assembly-CSharp::SituationSO
+  m_conditions: []
+  m_place: {fileID: 11400000, guid: 2cdb4158afd12ba4d8fbb9e42364f608, type: 2}
+  m_availableMasks:
+  - {fileID: 11400000, guid: 8894153bc748f5f4d92137e8c5c0ca36, type: 2}
+  - {fileID: 11400000, guid: 2653fe3682037244aaab2bf532371693, type: 2}
+  - {fileID: 11400000, guid: 1f4e3227dbe40174ea383c57d52ca8c9, type: 2}

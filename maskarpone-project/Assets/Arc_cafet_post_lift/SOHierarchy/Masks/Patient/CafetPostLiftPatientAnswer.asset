@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 211e7f033140cfb4ab5151cc718927bc, type: 3}
-  m_Name: LiftEnthusiastAnswer
+  m_Name: CafetPostLiftPatientAnswer
   m_EditorClassIdentifier: Assembly-CSharp::AnswerSO
-  m_timelineToLoad: {fileID: 11400000, guid: 4affc9485b5e9784782631ecaf7c6e0c, type: 2}
+  m_timelineToLoad: {fileID: 11400000, guid: a3d01721f90bea84b9d1abff6230ec58, type: 2}
   m_nextSituationList:
-  - {fileID: 11400000, guid: 9fae758209e5dda4483869b822a24ea7, type: 2}
+  - {fileID: 11400000, guid: 87482eb1f0923024eb606fc1dc7e475a, type: 2}
