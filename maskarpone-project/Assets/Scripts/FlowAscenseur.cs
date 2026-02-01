@@ -1,7 +1,9 @@
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 public class FlowAscenseur : MonoBehaviour
 {
@@ -9,12 +11,14 @@ public class FlowAscenseur : MonoBehaviour
     private PlayableDirector m_playableAscenseurIntro = null!;
 
     [SerializeField]
-    private TypewriterText m_typewriterText = null!;
+    private SceneAsset m_liftScene;
+
+    [SerializeField]
+    private SceneAsset m_introScene;
 
     private void Awake()
     {
         Assert.IsNotNull(m_playableAscenseurIntro);
-        Assert.IsNotNull(m_typewriterText);
 
         StartCoroutine(FlowAsync());
     }
@@ -25,6 +29,6 @@ public class FlowAscenseur : MonoBehaviour
 
         yield return new WaitWhile(() => m_playableAscenseurIntro.state == PlayState.Playing);
 
-        yield return m_typewriterText.TypeRoutine("Bonjour Mascaca ! Comment vas-tu ?");
+        SceneLoader.Instance.SwitchScene(m_introScene.name, m_liftScene.name);
     }
 }

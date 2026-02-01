@@ -149,7 +149,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlowAscenseur
   m_playableAscenseurIntro: {fileID: 1506321217}
-  m_typewriterText: {fileID: 2052037902}
+  m_liftScene: {fileID: 102900000, guid: 731c39131ff71a246b2f90e970522b13, type: 3}
+  m_introScene: {fileID: 102900000, guid: 393223636b899e54ca0c312f45386b35, type: 3}
 --- !u!4 &225718376
 Transform:
   m_ObjectHideFlags: 0
@@ -2541,7 +2542,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
   m_InitialState: 0
-  m_WrapMode: 0
+  m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:

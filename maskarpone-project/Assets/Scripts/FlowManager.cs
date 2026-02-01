@@ -38,16 +38,11 @@ public class FlowManager : MonoBehaviour
         m_playableDirector.Play();
         yield return new WaitWhile(() => m_playableDirector.state == PlayState.Playing);
         SituationSO nextSituation = selectedMask.Answer.GetNextSituation();
-        StartCoroutine(LoadNextSituationScene(nextSituation));
+        LoadNextSituationScene(nextSituation);
     }
 
-    private IEnumerator LoadNextSituationScene(SituationSO nextSituation)
+    private void LoadNextSituationScene(SituationSO nextSituation)
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(nextSituation.Place.LoadedScene.name);
-
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
-        }
+        SceneLoader.Instance.SwitchScene(m_currentSituation.Place.LoadedScene.name, nextSituation.Place.LoadedScene.name);
     }
 }
