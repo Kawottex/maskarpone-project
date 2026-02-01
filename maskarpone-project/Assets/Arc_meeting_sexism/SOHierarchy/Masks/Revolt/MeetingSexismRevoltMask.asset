@@ -15,5 +15,6 @@ MonoBehaviour:
   m_maskIcon: {fileID: 21300000, guid: ed2bea24d44b158479e07f925d4748db, type: 3}
   m_maskName: Revolt
   m_mask3DSprite: {fileID: 21300000, guid: 3f2fda52554a6f246b10c5e1cc1b0c78, type: 3}
-  m_consequences: []
+  m_consequences:
+  - {fileID: 11400000, guid: 8b7b73c779fae6b4081fa30c98604a03, type: 2}
   m_answer: {fileID: 11400000, guid: 62b69317634e62e44bc060e3c5e25fa6, type: 2}

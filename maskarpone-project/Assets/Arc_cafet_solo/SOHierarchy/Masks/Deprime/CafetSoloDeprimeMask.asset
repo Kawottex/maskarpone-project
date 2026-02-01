@@ -15,5 +15,6 @@ MonoBehaviour:
   m_maskIcon: {fileID: 21300000, guid: ed2bea24d44b158479e07f925d4748db, type: 3}
   m_maskName: Rushed
   m_mask3DSprite: {fileID: 21300000, guid: 3f2fda52554a6f246b10c5e1cc1b0c78, type: 3}
-  m_consequences: []
+  m_consequences:
+  - {fileID: 11400000, guid: ec43849230b66f24db1b878dbd343457, type: 2}
   m_answer: {fileID: 11400000, guid: 4d37ccc2e8fc85843b2ea16b51cb7be9, type: 2}

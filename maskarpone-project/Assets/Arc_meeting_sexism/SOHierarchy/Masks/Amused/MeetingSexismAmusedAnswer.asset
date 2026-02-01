@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: MeetingSexismAmusedAnswer
   m_EditorClassIdentifier: Assembly-CSharp::AnswerSO
   m_timelineToLoad: {fileID: 11400000, guid: a318fd45397cb904494c6a511f2f015a, type: 2}
-  m_nextSituationList: []
+  m_nextSituationList:
+  - {fileID: 11400000, guid: 7f1e99add95390c4b9e3a8fbf96946e9, type: 2}
