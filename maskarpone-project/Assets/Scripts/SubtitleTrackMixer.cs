@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class SubtitleTrackMixer : PlayableBehaviour
 {
-    public const float MAX_OPACITY = 0.7f;
+    public const float MAX_OPACITY = 0.55f;
 
     public override void ProcessFrame(Playable playable, FrameData info, object playerData)
     {
