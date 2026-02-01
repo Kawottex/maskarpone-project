@@ -14,6 +14,10 @@ public class MaskSO : ScriptableObject
     public string MaskName { get => m_maskName; }
 
     [SerializeField]
+    private Sprite m_mask3DSprite;
+    public Sprite Mask3DSprite { get => m_mask3DSprite; }
+
+    [SerializeField]
     private List<BoolSO> m_consequences = new List<BoolSO>();
     public List<BoolSO> Consequences { get => m_consequences; }
 

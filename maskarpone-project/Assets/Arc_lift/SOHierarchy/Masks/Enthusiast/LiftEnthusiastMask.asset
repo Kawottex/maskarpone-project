@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MaskSO
   m_maskIcon: {fileID: 21300000, guid: b423897bee712b643840c0e0895c844b, type: 3}
   m_maskName: Enthusiast
+  m_mask3DSprite: {fileID: 21300000, guid: 7156464348ab9ca4ca36a224d864834c, type: 3}
   m_consequences: []
   m_answer: {fileID: 11400000, guid: 60c96e1fe175a164ba0eb795a9d1ff2a, type: 2}

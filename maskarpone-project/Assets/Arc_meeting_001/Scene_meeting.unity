@@ -391,6 +391,7 @@ MonoBehaviour:
   m_currentSituation: {fileID: 11400000, guid: 87482eb1f0923024eb606fc1dc7e475a, type: 2}
   m_playableDirector: {fileID: 1846710476}
   m_maskUIRoot: {fileID: 663912164}
+  m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
 --- !u!1 &648222618
 GameObject:
   m_ObjectHideFlags: 0
