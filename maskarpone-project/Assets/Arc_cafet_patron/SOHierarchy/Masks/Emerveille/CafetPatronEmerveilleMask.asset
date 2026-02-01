@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421d562beae6a1c41a2a3ebf5b32b7f2, type: 3}
   m_Name: CafetPatronEmerveilleMask
   m_EditorClassIdentifier: Assembly-CSharp::MaskSO
-  m_maskIcon: {fileID: 21300000, guid: 98eb99da83c50e94f878e595287d76ec, type: 3}
-  m_maskName: Patient
-  m_mask3DSprite: {fileID: 21300000, guid: d2895f3813ed8cf4c80b1fa201697100, type: 3}
+  m_maskIcon: {fileID: 21300000, guid: 9c6bbc3475a574a47ad73dca516b462d, type: 3}
+  m_maskName: "Emerveill\xE9"
+  m_mask3DSprite: {fileID: 21300000, guid: 2d79e9c45b0326d4cb7515f262246d36, type: 3}
   m_consequences:
   - {fileID: 11400000, guid: 8ff4df06c4225364a9ba612f54b398b9, type: 2}
   m_answer: {fileID: 11400000, guid: 8b788875641da514c95a008c5283b3d4, type: 2}
