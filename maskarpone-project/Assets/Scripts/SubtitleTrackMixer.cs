@@ -2,6 +2,7 @@ using MPUIKIT;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.UI;
 
 public class SubtitleTrackMixer : PlayableBehaviour
 {
@@ -17,6 +18,8 @@ public class SubtitleTrackMixer : PlayableBehaviour
         }
 
         MPImage image = textComponent.transform.parent.GetComponentInChildren<MPImage>();
+        Image separatorImage = image.transform.GetChild(0).GetComponent<Image>();
+        TextMeshProUGUI narratorText = image.transform.GetChild(1).GetComponent<TextMeshProUGUI>();
 
         string textValue = string.Empty;
         float currentAlpha = 0;
@@ -44,6 +47,14 @@ public class SubtitleTrackMixer : PlayableBehaviour
         Color color = image.color;
         color.a = currentAlpha * MAX_OPACITY;
         image.color = color;
+
+        Color separatorColor = separatorImage.color;
+        separatorColor.a = currentAlpha;
+        separatorImage.color = separatorColor;
+
+        Color narratorTextColor = narratorText.color;
+        narratorTextColor.a = currentAlpha;
+        narratorText.color = narratorTextColor;
     }
 
     private string GetDynamicText(double _time, SubtitleBehaviour _subtitleBehaviour)
