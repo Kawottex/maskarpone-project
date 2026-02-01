@@ -257,18 +257,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 778360791}
     m_Modifications:
     - target: {fileID: 205595596013762233, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 205595596013762233, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 205595596013762233, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 205595596013762233, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.5
       objectReference: {fileID: 0}
@@ -308,16 +296,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 205595596013762233, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7112246217301446905, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
       propertyPath: m_Name
       value: User_mii
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 769284906966399365, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -338,11 +321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
---- !u!1 &241442582 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4597498572041117943, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
-  m_PrefabInstance: {fileID: 241442579}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &530829376
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,7 +369,7 @@ MonoBehaviour:
   m_playableDirector: {fileID: 1760166487}
   m_maskUIRoot: {fileID: 2113835784}
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
-  m_miiObject: {fileID: 241442582}
+  m_maskRoot: {fileID: 1345498062}
 --- !u!1 &607806718
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,7 +883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 16777215
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1103,6 +1081,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4086327070398130364, guid: e09d26d423fc34e4b9060e36d9dbf2fe, type: 3}
   m_PrefabInstance: {fileID: 1248326749}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1345498062 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4532245108764033940, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
+  m_PrefabInstance: {fileID: 241442579}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1498499013
 GameObject:

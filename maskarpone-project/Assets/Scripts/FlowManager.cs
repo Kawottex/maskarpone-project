@@ -19,7 +19,7 @@ public class FlowManager : MonoBehaviour
     private GameObject m_3DMaskPrefab = null;
 
     [SerializeField]
-    private GameObject m_miiObject = null;
+    private GameObject m_maskRoot = null;
 
     private void Start()
     {
@@ -51,20 +51,38 @@ public class FlowManager : MonoBehaviour
     private IEnumerator Spawn3DMaskOnPlayer(MaskSO selectedMask)
     {
         GameObject spawnedMask = Instantiate(m_3DMaskPrefab);
-        spawnedMask.transform.localScale = new Vector3(0, 0, 0);
-        spawnedMask.GetComponent<Animator>().SetTrigger("TriggerMovement");
         Renderer targetRenderer = spawnedMask.GetComponent<Renderer>();
         if (targetRenderer)
         {
             targetRenderer.material.mainTexture = selectedMask.Mask3DSprite.texture;
         }
 
-        yield return new WaitForSeconds(3.0f);
-        spawnedMask.GetComponent<Animator>().enabled = false;
-        spawnedMask.transform.SetParent(m_miiObject.transform, true);
+        Vector3 pointAPos = Vector3.zero;
+        Vector3 pointBPos = GetMaskFinalPos();
 
-        // fix degueux, pas le temps d'investiguer plus
-        spawnedMask.transform.position = new Vector3(spawnedMask.transform.position.x, spawnedMask.transform.position.y, spawnedMask.transform.position.z + 0.5f);
+        Vector3 scaleA = Vector3.zero;
+        Vector3 scaleB = new Vector3(500.0f, 500.0f, 500.0f);
+
+        float duration = 2.0f;
+        float timeElapsed = 0f;
+
+        while (timeElapsed < duration)
+        {
+            spawnedMask.transform.position = Vector3.Lerp(pointAPos, pointBPos, timeElapsed / duration);
+            spawnedMask.transform.localScale = Vector3.Lerp(scaleA, scaleB, timeElapsed / duration);
+            timeElapsed += Time.deltaTime;
+            pointBPos = GetMaskFinalPos();
+            yield return null;
+        }
+
+        spawnedMask.transform.position = GetMaskFinalPos();
+        spawnedMask.transform.SetParent(m_maskRoot.transform, true);
+    }
+
+    private Vector3 GetMaskFinalPos()
+    {
+        Vector3 pointBPos = m_maskRoot.transform.position;
+        return pointBPos;
     }
 
     private void LoadNextSituationScene(SituationSO nextSituation)
