@@ -23,6 +23,7 @@ public class SubtitleTrackMixer : PlayableBehaviour
 
         string textValue = string.Empty;
         float currentAlpha = 0;
+        SubtitleBehaviour subtitleBehaviour = null;
 
         int inputCount = playable.GetInputCount();
         for (int i = 0; i < inputCount; ++i)
@@ -33,7 +34,7 @@ public class SubtitleTrackMixer : PlayableBehaviour
             {
                 var inputPlayable = (ScriptPlayable<SubtitleBehaviour>)playable.GetInput(i);
 
-                SubtitleBehaviour subtitleBehaviour = inputPlayable.GetBehaviour();
+                subtitleBehaviour = inputPlayable.GetBehaviour();
                 textValue = GetDynamicText(inputPlayable.GetTime(), subtitleBehaviour);
                 currentAlpha = inputWeight;
 
@@ -43,6 +44,11 @@ public class SubtitleTrackMixer : PlayableBehaviour
 
         textComponent.text = textValue;
         textComponent.color = new Color(1, 1, 1, currentAlpha);
+
+        if (subtitleBehaviour != null)
+        {
+            narratorText.text = subtitleBehaviour.m_user;
+        }
 
         Color color = image.color;
         color.a = currentAlpha * MAX_OPACITY;
@@ -64,7 +70,7 @@ public class SubtitleTrackMixer : PlayableBehaviour
             return _subtitleBehaviour.m_text;
         }
 
-        string res = $"{_subtitleBehaviour.m_user}: ";
+        string res = "";
 
         double increment = 0;
 
