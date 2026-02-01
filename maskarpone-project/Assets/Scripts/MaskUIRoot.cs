@@ -72,8 +72,10 @@ public class MaskUIRoot : MonoBehaviour
         for (int i = 0; i < maskList.Count; i++)
         {
             Transform panelChild = m_currentPanel.transform.GetChild(i);
-            panelChild.GetChild(0).GetComponent<Image>().sprite = maskList[i].MaskIcon;
-            BindButton(panelChild.GetComponent<Button>(), maskList[i]);
+            MaskButtonRoot maskButtonRoot = panelChild.GetComponent<MaskButtonRoot>();
+            maskButtonRoot.MaskSprite.sprite = maskList[i].MaskIcon;
+            BindButton(maskButtonRoot.MainButton, maskList[i]);
+            maskButtonRoot.MaskNameText.text = maskList[i].MaskName;
 
             Animator buttonAnimator = panelChild.GetComponent<Animator>();
             buttonAnimator.SetTrigger("FadeIn");
