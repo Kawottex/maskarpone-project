@@ -1,10 +1,15 @@
 using System.Collections;
+using System.Threading;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    [SerializeField]
+    private SceneAsset m_firstMapToLoad;
+
     public static SceneLoader Instance { get; private set; }
 
     private void Awake()
@@ -18,6 +23,20 @@ public class SceneLoader : MonoBehaviour
         else
         {
             Instance = this;
+        }
+    }
+
+    private void Start()
+    {
+        StartCoroutine(LoadFirstMap());
+    }
+
+    private IEnumerator LoadFirstMap()
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(m_firstMapToLoad.name, LoadSceneMode.Additive);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
         }
     }
 

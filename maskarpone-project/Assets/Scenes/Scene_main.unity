@@ -275,6 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17b53d57997768f4fa5d3f89e4cdf215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  m_firstMapToLoad: {fileID: 102900000, guid: 393223636b899e54ca0c312f45386b35, type: 3}
 --- !u!4 &1203672567
 Transform:
   m_ObjectHideFlags: 0
