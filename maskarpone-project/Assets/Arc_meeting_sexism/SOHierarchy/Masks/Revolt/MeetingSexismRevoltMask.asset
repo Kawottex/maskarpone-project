@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MeetingSexismRevoltMask
   m_EditorClassIdentifier: Assembly-CSharp::MaskSO
   m_maskIcon: {fileID: 21300000, guid: e25edb3049fdb5e429d1858c5a62d76d, type: 3}
-  m_maskName: Revolt
+  m_maskName: "R\xE9volt\xE9"
   m_mask3DSprite: {fileID: 21300000, guid: c84efdcb8588b5f4cb201f6a5ef914b5, type: 3}
   m_consequences:
   - {fileID: 11400000, guid: 8b7b73c779fae6b4081fa30c98604a03, type: 2}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MeetingVictimMask
   m_EditorClassIdentifier: Assembly-CSharp::MaskSO
   m_maskIcon: {fileID: 21300000, guid: 61d8551de3c77e64b825165e6edca34c, type: 3}
-  m_maskName: Victim
+  m_maskName: Pleurs
   m_mask3DSprite: {fileID: 21300000, guid: 3f2fda52554a6f246b10c5e1cc1b0c78, type: 3}
   m_consequences:
   - {fileID: 11400000, guid: ec43849230b66f24db1b878dbd343457, type: 2}
