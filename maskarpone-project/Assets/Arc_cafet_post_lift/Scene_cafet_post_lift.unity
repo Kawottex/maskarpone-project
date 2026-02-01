@@ -1271,6 +1271,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+--- !u!1 &1226776581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4532245108764033940, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
+  m_PrefabInstance: {fileID: 1081385612}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1349530124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1580,7 +1585,7 @@ MonoBehaviour:
   m_playableDirector: {fileID: 1497659167}
   m_maskUIRoot: {fileID: 1349530126}
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
-  m_maskRoot: {fileID: 0}
+  m_maskRoot: {fileID: 1226776581}
   m_isBeforeFinalScene: 0
 --- !u!1 &1889779699
 GameObject:

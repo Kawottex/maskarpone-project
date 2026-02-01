@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421d562beae6a1c41a2a3ebf5b32b7f2, type: 3}
   m_Name: CafetPaolaInteresseMask
   m_EditorClassIdentifier: Assembly-CSharp::MaskSO
-  m_maskIcon: {fileID: 21300000, guid: ed2bea24d44b158479e07f925d4748db, type: 3}
+  m_maskIcon: {fileID: 21300000, guid: ab42275e9f9fcd144b296b97e93660d4, type: 3}
   m_maskName: "Int\xE9ress\xE9"
-  m_mask3DSprite: {fileID: 21300000, guid: 3f2fda52554a6f246b10c5e1cc1b0c78, type: 3}
+  m_mask3DSprite: {fileID: 21300000, guid: f154a0965570f5f4ca22d9649b7de02d, type: 3}
   m_consequences:
   - {fileID: 11400000, guid: 8b7b73c779fae6b4081fa30c98604a03, type: 2}
   m_answer: {fileID: 11400000, guid: e566233753c5bf84eb2b7c0da2cdb668, type: 2}

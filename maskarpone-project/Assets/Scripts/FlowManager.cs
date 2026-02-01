@@ -48,6 +48,8 @@ public class FlowManager : MonoBehaviour
 
     private void DisplayMasks()
     {
+        m_playableDirector.time = m_playableDirector.duration;
+        m_playableDirector.Evaluate();
         m_maskUIRoot.DisplayMasks(m_currentSituation.AvailableMasks);
     }
 
@@ -58,6 +60,8 @@ public class FlowManager : MonoBehaviour
             consequence.TriggerAddedValue();
         }
         yield return Spawn3DMaskOnPlayer(selectedMask);
+        m_playableDirector.time = 0.0f;
+        m_playableDirector.Evaluate();
         m_playableDirector.playableAsset = selectedMask.Answer.TimelineToLoad;
         m_playableDirector.Play();
         yield return new WaitWhile(() => m_playableDirector.state == PlayState.Playing);
@@ -99,6 +103,7 @@ public class FlowManager : MonoBehaviour
     private Vector3 GetMaskFinalPos()
     {
         Vector3 pointBPos = m_maskRoot.transform.position;
+        pointBPos.z += 0.5f;
         return pointBPos;
     }
 
