@@ -243,6 +243,7 @@ MonoBehaviour:
   - {fileID: -2247444417366689892}
   - {fileID: -1840165509519214218}
   - {fileID: -1809300352150654380}
+  - {fileID: 6761727577010454719}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -265,6 +266,22 @@ MonoBehaviour:
   VirtualCamera:
     exposedName: 0aeebf20bcea1744f9d32a6c984a2664
     defaultValue: {fileID: 0}
+--- !u!114 &4948855039993307091
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
+  m_Time: 0
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: d4b55bff5242e2b47877cc66fc26a069, type: 2}
 --- !u!74 &6615264640357388041
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -509,6 +526,30 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
+--- !u!114 &6761727577010454719
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46e36075dd1c124a8422c228e75e1fb, type: 3}
+  m_Name: Signal Track
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects:
+    - {fileID: 4948855039993307091}
 --- !u!114 &8544360600664736832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -521,6 +562,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39446dcb8cb2aac4ea21e248d1bd7c04, type: 3}
   m_Name: SubtitleClip
   m_EditorClassIdentifier: Assembly-CSharp::SubtitleClip
-  m_user: 
-  m_text: '*Vous arborez votre meilleur masque de paraitre et vous brossez votre
-    boss dans le sens des poils*'
+  m_user: Narrator
+  m_text: Vous arborez votre meilleur masque de paraitre et vous brossez votre boss
+    dans le sens des poils
