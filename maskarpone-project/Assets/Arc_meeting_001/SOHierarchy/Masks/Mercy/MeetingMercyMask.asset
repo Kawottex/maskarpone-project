@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MaskSO
   m_maskIcon: {fileID: 21300000, guid: 9da9bd7333254c44cb66a3a9e2ffc525, type: 3}
   m_maskName: "Piti\xE9"
-  m_mask3DSprite: {fileID: 21300000, guid: 7b85be460fc413a439f910a7b0eea97b, type: 3}
+  m_mask3DSprite: {fileID: 21300000, guid: d660c9098eda1664e80fd28247a56204, type: 3}
   m_consequences:
   - {fileID: 11400000, guid: 8ff4df06c4225364a9ba612f54b398b9, type: 2}
   m_answer: {fileID: 11400000, guid: e4228cbb1e435cc4c9729564e2a0d730, type: 2}
