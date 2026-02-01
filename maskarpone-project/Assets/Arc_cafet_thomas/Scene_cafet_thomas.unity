@@ -232,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 16777215
+      value: 218103807
       objectReference: {fileID: 0}
     - target: {fileID: 3625183496087314904, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_AnchorMax.y

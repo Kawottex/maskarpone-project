@@ -868,6 +868,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4086327070398130364, guid: e09d26d423fc34e4b9060e36d9dbf2fe, type: 3}
   m_PrefabInstance: {fileID: 1023962081}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1023962083 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7508429251137854404, guid: e09d26d423fc34e4b9060e36d9dbf2fe, type: 3}
+  m_PrefabInstance: {fileID: 1023962081}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
 --- !u!1001 &1081385612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1239,6 +1250,12 @@ PlayableDirector:
     value: {fileID: 181563013}
   - key: {fileID: -5304916022181130613, guid: 28b95b6a247a2994c82aeed98511772e, type: 2}
     value: {fileID: 1889779700}
+  - key: {fileID: 5440467913634085503, guid: 28b95b6a247a2994c82aeed98511772e, type: 2}
+    value: {fileID: 1081385614}
+  - key: {fileID: 3193068743327694941, guid: 28b95b6a247a2994c82aeed98511772e, type: 2}
+    value: {fileID: 1023962083}
+  - key: {fileID: -5527820413409439846, guid: 28b95b6a247a2994c82aeed98511772e, type: 2}
+    value: {fileID: 2129220647}
   m_ExposedReferences:
     m_References:
     - d31f508d82302ba4abc63bfc0b28c594: {fileID: 0}
@@ -1461,6 +1478,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4086327070398130364, guid: 2e3242ba6fe5e264a9cf8adfbe7c0032, type: 3}
   m_PrefabInstance: {fileID: 2129220645}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2129220647 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7508429251137854404, guid: 2e3242ba6fe5e264a9cf8adfbe7c0032, type: 3}
+  m_PrefabInstance: {fileID: 2129220645}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

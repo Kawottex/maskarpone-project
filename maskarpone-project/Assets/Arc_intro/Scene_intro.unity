@@ -3730,7 +3730,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '8:55 AM
+  m_text: '08h55
 
     Ascenseur'
   m_isRightToLeft: 0

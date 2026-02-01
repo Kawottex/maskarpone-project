@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Name: SubtitleClip
   m_EditorClassIdentifier: Assembly-CSharp::SubtitleClip
   m_user: Narrateur
-  m_text: "Impressionn\xE9 par votre confiance en soit, votre patron vous accorde
+  m_text: "Impressionn\xE9 par votre confiance en vous, votre patron vous accorde
     une promotion et vous devenez son associ\xE9."
 --- !u!114 &-493387235239581598
 MonoBehaviour:

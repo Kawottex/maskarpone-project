@@ -1593,10 +1593,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaskUIRoot
       objectReference: {fileID: 0}
+    - target: {fileID: 1195204655396135104, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4140782261678865068, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876537776067051925, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6121911039416099646, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7096550965353439879, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
       propertyPath: m_flowManager
       value: 
       objectReference: {fileID: 530829379}
+    - target: {fileID: 8587723451734825874, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
