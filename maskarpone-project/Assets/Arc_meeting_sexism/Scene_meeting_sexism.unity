@@ -561,6 +561,7 @@ MonoBehaviour:
   m_currentSituation: {fileID: 11400000, guid: 87482eb1f0923024eb606fc1dc7e475a, type: 2}
   m_playableDirector: {fileID: 1623734675}
   m_maskUIRoot: {fileID: 1765898369}
+  m_3DMaskPrefab: {fileID: 0}
 --- !u!4 &1144325975
 Transform:
   m_ObjectHideFlags: 0
@@ -568,6 +569,117 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144325973}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1202113438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1202113440}
+  - component: {fileID: 1202113439}
+  m_Layer: 0
+  m_Name: Timeline_meeting_sexism_003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &1202113439
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202113438}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: c7405009826b9a14a8609f0078525b17, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -2827531134539938253, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1548242826129496416, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1317062235428110973, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1998399937569737163, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 216012127505179259, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -460971152847080652, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2247444417366689892, guid: 2dc5d5cf2b70a1c408be8f40475d30f0, type: 2}
+    value: {fileID: 1340128736}
+  - key: {fileID: -1840165509519214218, guid: 2dc5d5cf2b70a1c408be8f40475d30f0, type: 2}
+    value: {fileID: 1507900559}
+  - key: {fileID: -1809300352150654380, guid: 2dc5d5cf2b70a1c408be8f40475d30f0, type: 2}
+    value: {fileID: 1904238796}
+  - key: {fileID: -2247444417366689892, guid: 0d5ea03daa606b24195a474cd9b90e24, type: 2}
+    value: {fileID: 1340128736}
+  - key: {fileID: -1840165509519214218, guid: 0d5ea03daa606b24195a474cd9b90e24, type: 2}
+    value: {fileID: 1507900559}
+  - key: {fileID: -1809300352150654380, guid: 0d5ea03daa606b24195a474cd9b90e24, type: 2}
+    value: {fileID: 1904238796}
+  - key: {fileID: -2247444417366689892, guid: e83d4058761cd6447960e1fa628dbdc6, type: 2}
+    value: {fileID: 1340128736}
+  - key: {fileID: -1840165509519214218, guid: e83d4058761cd6447960e1fa628dbdc6, type: 2}
+    value: {fileID: 1507900559}
+  - key: {fileID: -1809300352150654380, guid: e83d4058761cd6447960e1fa628dbdc6, type: 2}
+    value: {fileID: 1904238796}
+  - key: {fileID: -2247444417366689892, guid: c85db837404567346adf52d8fef04d7d, type: 2}
+    value: {fileID: 1340128736}
+  - key: {fileID: -1840165509519214218, guid: c85db837404567346adf52d8fef04d7d, type: 2}
+    value: {fileID: 1507900559}
+  - key: {fileID: -1809300352150654380, guid: c85db837404567346adf52d8fef04d7d, type: 2}
+    value: {fileID: 1904238796}
+  - key: {fileID: -5160130121252668434, guid: c85db837404567346adf52d8fef04d7d, type: 2}
+    value: {fileID: 41899247}
+  - key: {fileID: -2247444417366689892, guid: c7405009826b9a14a8609f0078525b17, type: 2}
+    value: {fileID: 1340128736}
+  - key: {fileID: -1840165509519214218, guid: c7405009826b9a14a8609f0078525b17, type: 2}
+    value: {fileID: 1507900559}
+  - key: {fileID: -1809300352150654380, guid: c7405009826b9a14a8609f0078525b17, type: 2}
+    value: {fileID: 1904238796}
+  - key: {fileID: -5160130121252668434, guid: c7405009826b9a14a8609f0078525b17, type: 2}
+    value: {fileID: 41899247}
+  m_ExposedReferences:
+    m_References:
+    - d31f508d82302ba4abc63bfc0b28c594: {fileID: 0}
+    - 759ff21690abf0146bc599a2236fdc67: {fileID: 0}
+    - 0aeebf20bcea1744f9d32a6c984a2664: {fileID: 1524615305}
+    - 8099d81e0be08354689cf5a346060ef4: {fileID: 0}
+    - 13f2e85c6f0bae442ac81e625c57f707: {fileID: 0}
+    - 66d900bbbe1ddd045ad1784a74ce59f3: {fileID: 1340128735}
+    - f1f806116463bae40a94409ebf1f4134: {fileID: 0}
+    - c5801379df913b44f9163229cc3ce548: {fileID: 0}
+    - ba0e83b53e05a6c40a52c2848ad21eda: {fileID: 0}
+    - 65605d6c6cd8dfe40b34a09017a223b2: {fileID: 0}
+    - 2eab28f80a1d8334096c132065d1d240: {fileID: 0}
+    - fba53fd807b93aa4e93d5ab8f2446085: {fileID: 1340128735}
+    - 6cf300247c9f7cb4dbe2d5838c5b6332: {fileID: 1340128735}
+    - 386c8abc8f963084e996969101247bce: {fileID: 0}
+    - 549a89424a69e4141a8ba7d4261d016b: {fileID: 0}
+    - 3fc3ececcb63b524b90fb37a8f1aef3a: {fileID: 0}
+--- !u!4 &1202113440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202113438}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -744,7 +856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6818032562341450091, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: orthographic size
-      value: 3.5
+      value: 2.17
       objectReference: {fileID: 0}
     - target: {fileID: 7901792812367435650, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1072,6 +1184,123 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1904238795}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1620802533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1620802535}
+  - component: {fileID: 1620802534}
+  m_Layer: 0
+  m_Name: Timeline_meeting_sexism_002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &1620802534
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620802533}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: a318fd45397cb904494c6a511f2f015a, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -2827531134539938253, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1548242826129496416, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1317062235428110973, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1998399937569737163, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 216012127505179259, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -460971152847080652, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2247444417366689892, guid: 2dc5d5cf2b70a1c408be8f40475d30f0, type: 2}
+    value: {fileID: 1340128736}
+  - key: {fileID: -1840165509519214218, guid: 2dc5d5cf2b70a1c408be8f40475d30f0, type: 2}
+    value: {fileID: 1507900559}
+  - key: {fileID: -1809300352150654380, guid: 2dc5d5cf2b70a1c408be8f40475d30f0, type: 2}
+    value: {fileID: 1904238796}
+  - key: {fileID: -2247444417366689892, guid: 0d5ea03daa606b24195a474cd9b90e24, type: 2}
+    value: {fileID: 1340128736}
+  - key: {fileID: -1840165509519214218, guid: 0d5ea03daa606b24195a474cd9b90e24, type: 2}
+    value: {fileID: 1507900559}
+  - key: {fileID: -1809300352150654380, guid: 0d5ea03daa606b24195a474cd9b90e24, type: 2}
+    value: {fileID: 1904238796}
+  - key: {fileID: -2247444417366689892, guid: e83d4058761cd6447960e1fa628dbdc6, type: 2}
+    value: {fileID: 1340128736}
+  - key: {fileID: -1840165509519214218, guid: e83d4058761cd6447960e1fa628dbdc6, type: 2}
+    value: {fileID: 1507900559}
+  - key: {fileID: -1809300352150654380, guid: e83d4058761cd6447960e1fa628dbdc6, type: 2}
+    value: {fileID: 1904238796}
+  - key: {fileID: -2247444417366689892, guid: c85db837404567346adf52d8fef04d7d, type: 2}
+    value: {fileID: 1340128736}
+  - key: {fileID: -1840165509519214218, guid: c85db837404567346adf52d8fef04d7d, type: 2}
+    value: {fileID: 1507900559}
+  - key: {fileID: -1809300352150654380, guid: c85db837404567346adf52d8fef04d7d, type: 2}
+    value: {fileID: 1904238796}
+  - key: {fileID: -5160130121252668434, guid: c85db837404567346adf52d8fef04d7d, type: 2}
+    value: {fileID: 41899247}
+  - key: {fileID: -2247444417366689892, guid: c7405009826b9a14a8609f0078525b17, type: 2}
+    value: {fileID: 1340128736}
+  - key: {fileID: -1840165509519214218, guid: c7405009826b9a14a8609f0078525b17, type: 2}
+    value: {fileID: 1507900559}
+  - key: {fileID: -1809300352150654380, guid: c7405009826b9a14a8609f0078525b17, type: 2}
+    value: {fileID: 1904238796}
+  - key: {fileID: -2247444417366689892, guid: a318fd45397cb904494c6a511f2f015a, type: 2}
+    value: {fileID: 1340128736}
+  - key: {fileID: -1840165509519214218, guid: a318fd45397cb904494c6a511f2f015a, type: 2}
+    value: {fileID: 1507900559}
+  - key: {fileID: -1809300352150654380, guid: a318fd45397cb904494c6a511f2f015a, type: 2}
+    value: {fileID: 1904238796}
+  - key: {fileID: -5160130121252668434, guid: a318fd45397cb904494c6a511f2f015a, type: 2}
+    value: {fileID: 41899247}
+  m_ExposedReferences:
+    m_References:
+    - d31f508d82302ba4abc63bfc0b28c594: {fileID: 0}
+    - 759ff21690abf0146bc599a2236fdc67: {fileID: 0}
+    - 0aeebf20bcea1744f9d32a6c984a2664: {fileID: 1524615305}
+    - 8099d81e0be08354689cf5a346060ef4: {fileID: 0}
+    - 13f2e85c6f0bae442ac81e625c57f707: {fileID: 0}
+    - f1f806116463bae40a94409ebf1f4134: {fileID: 0}
+    - c5801379df913b44f9163229cc3ce548: {fileID: 0}
+    - ba0e83b53e05a6c40a52c2848ad21eda: {fileID: 0}
+    - 65605d6c6cd8dfe40b34a09017a223b2: {fileID: 0}
+    - 2eab28f80a1d8334096c132065d1d240: {fileID: 0}
+    - fba53fd807b93aa4e93d5ab8f2446085: {fileID: 1340128735}
+    - 6cf300247c9f7cb4dbe2d5838c5b6332: {fileID: 1340128735}
+    - 386c8abc8f963084e996969101247bce: {fileID: 0}
+    - 56282e33673c7f842a71104701ec8264: {fileID: 1340128735}
+    - 549a89424a69e4141a8ba7d4261d016b: {fileID: 0}
+    - 3fc3ececcb63b524b90fb37a8f1aef3a: {fileID: 0}
+--- !u!4 &1620802535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620802533}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1623734674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,7 +1312,7 @@ GameObject:
   - component: {fileID: 1623734676}
   - component: {fileID: 1623734675}
   m_Layer: 0
-  m_Name: Timeline_meeting_sexism
+  m_Name: Timeline_meeting_sexism_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1593,6 +1822,8 @@ SceneRoots:
   - {fileID: 1144325975}
   - {fileID: 1340128734}
   - {fileID: 1623734676}
+  - {fileID: 1620802535}
+  - {fileID: 1202113440}
   - {fileID: 1904238795}
   - {fileID: 650134326}
   - {fileID: 1084898921}
