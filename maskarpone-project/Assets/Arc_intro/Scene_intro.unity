@@ -2006,7 +2006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_text
-      value: Mii
+      value: Thomas
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor.a
@@ -3960,9 +3960,9 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1168194035}
+  - {fileID: 225718376}
+  - {fileID: 259342009}
   - {fileID: 1506321216}
   - {fileID: 1763166062}
   - {fileID: 1334450011}
-  - {fileID: 225718376}
-  - {fileID: 259342009}
+  - {fileID: 1168194035}
