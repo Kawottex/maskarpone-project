@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 421d562beae6a1c41a2a3ebf5b32b7f2, type: 3}
-  m_Name: MeetingBootlickerMask
+  m_Name: MeetingSexismAmusedMask
   m_EditorClassIdentifier: Assembly-CSharp::MaskSO
-  m_maskIcon: {fileID: 21300000, guid: a4dd4f3d8afae1d44a49d2ce1efc7e10, type: 3}
-  m_maskName: Leche-cul
+  m_maskIcon: {fileID: 21300000, guid: 98eb99da83c50e94f878e595287d76ec, type: 3}
+  m_maskName: Amused
+  m_mask3DSprite: {fileID: 21300000, guid: d2895f3813ed8cf4c80b1fa201697100, type: 3}
   m_consequences: []
-  m_answer: {fileID: 11400000, guid: e4228cbb1e435cc4c9729564e2a0d730, type: 2}
+  m_answer: {fileID: 11400000, guid: 25c96328b165435429fb4962284fb73e, type: 2}
