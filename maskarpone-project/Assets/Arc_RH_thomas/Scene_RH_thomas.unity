@@ -224,17 +224,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_text
-      value: "Ahhhh... D\xE9j\xE0 la pause dej ! Vous \xEAtes tout excit\xE9 \xE0
-        l'id\xE9e de reprendre votre conversation avec Thomas qui vous avez tellement
-        manqu\xE9 pendant vos vaca"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 16777215
       objectReference: {fileID: 0}
     - target: {fileID: 3625183496087314904, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -362,11 +360,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 16777215
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -557,7 +555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6818032562341450091, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: orthographic size
-      value: 2.17
+      value: 3.75
       objectReference: {fileID: 0}
     - target: {fileID: 7901792812367435650, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -773,7 +771,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 60.000004
-    OrthographicSize: 2.17
+    OrthographicSize: 3.75
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -1088,7 +1086,7 @@ GameObject:
   - component: {fileID: 1497659168}
   - component: {fileID: 1497659167}
   m_Layer: 0
-  m_Name: Timeline_RH_paola
+  m_Name: Timeline_RH_thomas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1103,7 +1101,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1497659166}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 071c00761cd9c8f4791bc65758b5db98, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 28b95b6a247a2994c82aeed98511772e, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -1235,9 +1233,16 @@ PlayableDirector:
     value: {fileID: 1889779700}
   - key: {fileID: -488064579771963220, guid: 071c00761cd9c8f4791bc65758b5db98, type: 2}
     value: {fileID: 1081385614}
+  - key: {fileID: 6245041437144174022, guid: 28b95b6a247a2994c82aeed98511772e, type: 2}
+    value: {fileID: 770880369}
+  - key: {fileID: 3376770206934942069, guid: 28b95b6a247a2994c82aeed98511772e, type: 2}
+    value: {fileID: 181563013}
+  - key: {fileID: -5304916022181130613, guid: 28b95b6a247a2994c82aeed98511772e, type: 2}
+    value: {fileID: 1889779700}
   m_ExposedReferences:
     m_References:
     - d31f508d82302ba4abc63bfc0b28c594: {fileID: 0}
+    - f06862b2ee2678045bc1aea7dab95041: {fileID: 770880368}
     - 759ff21690abf0146bc599a2236fdc67: {fileID: 0}
     - 1bad2f596537ac44d8373340f1acec89: {fileID: 770880368}
     - 8099d81e0be08354689cf5a346060ef4: {fileID: 0}
@@ -1317,6 +1322,7 @@ MonoBehaviour:
   m_maskUIRoot: {fileID: 1349530126}
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
   m_maskRoot: {fileID: 0}
+  m_isBeforeFinalScene: 0
 --- !u!1 &1889779699
 GameObject:
   m_ObjectHideFlags: 0
