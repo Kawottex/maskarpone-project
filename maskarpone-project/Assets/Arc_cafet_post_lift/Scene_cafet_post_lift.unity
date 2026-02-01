@@ -224,17 +224,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_text
-      value: "Cela fait 10 minutes que Thomas est lanc\xE9 sur un monologue de ses
-        vacances et vous n'arrivez pas \xE0 l'arr\xEAter.\\nQuel masque allez-vous
-        choisir cette fois ?"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 16777215
       objectReference: {fileID: 0}
     - target: {fileID: 3625183496087314904, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -358,15 +356,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_text
-      value: Narrateur
+      value: Narrator
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 16777215
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -749,11 +747,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &627942761 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4597498572041117943, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
-  m_PrefabInstance: {fileID: 1081385612}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &720906843
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,6 +1513,7 @@ PlayableDirector:
     - 65605d6c6cd8dfe40b34a09017a223b2: {fileID: 770880368}
     - 2eab28f80a1d8334096c132065d1d240: {fileID: 770880368}
     - 1e9cea8225fadc84cb1c2a3855121497: {fileID: 1889779699}
+    - e2e644469692eb849835b9974676cc7b: {fileID: 770880368}
     - 386c8abc8f963084e996969101247bce: {fileID: 770880368}
     - 549a89424a69e4141a8ba7d4261d016b: {fileID: 770880368}
     - 3fc3ececcb63b524b90fb37a8f1aef3a: {fileID: 0}
@@ -1586,7 +1580,7 @@ MonoBehaviour:
   m_playableDirector: {fileID: 1497659167}
   m_maskUIRoot: {fileID: 1349530126}
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
-  m_miiObject: {fileID: 627942761}
+  m_maskRoot: {fileID: 0}
 --- !u!1 &1889779699
 GameObject:
   m_ObjectHideFlags: 0
