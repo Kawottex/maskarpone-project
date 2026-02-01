@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SOOpenSpacePlace
   m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
   m_name: Open space
-  m_loadedScene: {fileID: 102900000, guid: 03347430ce2bace4483e5450b5ce5176, type: 3}
+  m_loadedScene: Scene_openspace

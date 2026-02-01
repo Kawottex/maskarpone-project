@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421d562beae6a1c41a2a3ebf5b32b7f2, type: 3}
   m_Name: CafetSoloDeprimeMask
   m_EditorClassIdentifier: Assembly-CSharp::MaskSO
-  m_maskIcon: {fileID: 21300000, guid: ed2bea24d44b158479e07f925d4748db, type: 3}
-  m_maskName: Rushed
-  m_mask3DSprite: {fileID: 21300000, guid: 3f2fda52554a6f246b10c5e1cc1b0c78, type: 3}
+  m_maskIcon: {fileID: 21300000, guid: 5ab4b3da77cb77646a495c2ff28c257a, type: 3}
+  m_maskName: "D\xE9pressif"
+  m_mask3DSprite: {fileID: 21300000, guid: 0f6539bdb936e1a46951924c3bae5ee9, type: 3}
   m_consequences:
   - {fileID: 11400000, guid: ec43849230b66f24db1b878dbd343457, type: 2}
   m_answer: {fileID: 11400000, guid: 4d37ccc2e8fc85843b2ea16b51cb7be9, type: 2}

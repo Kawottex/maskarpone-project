@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SORHPromotionPlace
   m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
   m_name: RH Promotion
-  m_loadedScene: {fileID: 102900000, guid: 0fb77e521ea1c0f488a60d5610ffb896, type: 3}
+  m_loadedScene: Scene_RH_promotion

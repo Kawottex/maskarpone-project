@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SORHSpeedrunPlace
   m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
   m_name: RH speedrun
-  m_loadedScene: {fileID: 102900000, guid: c5cb773500605eb459124f672bae1015, type: 3}
+  m_loadedScene: Scene_RH_speedrun

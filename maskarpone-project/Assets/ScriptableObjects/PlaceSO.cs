@@ -9,6 +9,6 @@ public class PlaceSO : ScriptableObject
     public string Name { get => m_name; }
 
     [SerializeField]
-    private SceneAsset m_loadedScene;
-    public SceneAsset LoadedScene { get => m_loadedScene; }
+    private string m_loadedScene;
+    public string LoadedScene { get => m_loadedScene; }
 }

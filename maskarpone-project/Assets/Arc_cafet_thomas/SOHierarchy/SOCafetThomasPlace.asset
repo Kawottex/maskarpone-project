@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SOCafetThomasPlace
   m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
   m_name: Cafet thomas
-  m_loadedScene: {fileID: 102900000, guid: 25d27b2938d53db4bb9698d1a28c8c4d, type: 3}
+  m_loadedScene: Scene_cafet_thomas

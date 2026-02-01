@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SOCafetPatronPlace
   m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
   m_name: Cafet patron
-  m_loadedScene: {fileID: 102900000, guid: 61d3577392fd1fa4fa30f54b35196552, type: 3}
+  m_loadedScene: Scene_cafet_patron
