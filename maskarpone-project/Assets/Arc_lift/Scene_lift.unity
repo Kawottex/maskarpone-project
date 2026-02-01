@@ -758,7 +758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 16777215
       objectReference: {fileID: 0}
     - target: {fileID: 8139493517919347791, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_Pivot.x
@@ -846,7 +846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 16777215
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1247,6 +1247,7 @@ PlayableDirector:
     - 65605d6c6cd8dfe40b34a09017a223b2: {fileID: 1017594758}
     - 2eab28f80a1d8334096c132065d1d240: {fileID: 1017594758}
     - 1e9cea8225fadc84cb1c2a3855121497: {fileID: 778360789}
+    - dd53343888d4722459d095742a6030c4: {fileID: 1017594758}
     - 386c8abc8f963084e996969101247bce: {fileID: 1017594758}
     - 549a89424a69e4141a8ba7d4261d016b: {fileID: 1017594758}
     - 3fc3ececcb63b524b90fb37a8f1aef3a: {fileID: 0}

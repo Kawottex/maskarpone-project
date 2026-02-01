@@ -1383,82 +1383,6 @@ PrefabInstance:
       propertyPath: m_fontColor.a
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2433962351504824716, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2433962351504824716, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2433962351504824716, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2433962351504824716, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2433962351504824716, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 2433962351504824716, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -16
-      objectReference: {fileID: 0}
-    - target: {fileID: 2469334331857147309, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2469334331857147309, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2469334331857147309, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2469334331857147309, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2469334331857147309, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2469334331857147309, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2516594076112809895, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_ChildControlWidth
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2516594076112809895, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_ChildControlHeight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2770454596455559256, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3074508576084125538, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3074508576084125538, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_fontColor.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3074508576084125538, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 5951056574395079094, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_Alpha
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8139493517919347791, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1542,6 +1466,10 @@ PrefabInstance:
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 16777215
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
