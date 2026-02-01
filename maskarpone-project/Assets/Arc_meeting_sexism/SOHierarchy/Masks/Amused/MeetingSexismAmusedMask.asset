@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421d562beae6a1c41a2a3ebf5b32b7f2, type: 3}
   m_Name: MeetingSexismAmusedMask
   m_EditorClassIdentifier: Assembly-CSharp::MaskSO
-  m_maskIcon: {fileID: 21300000, guid: 98eb99da83c50e94f878e595287d76ec, type: 3}
+  m_maskIcon: {fileID: 21300000, guid: 481eec036eae2f44e869aa4f411c7ac4, type: 3}
   m_maskName: Amused
   m_mask3DSprite: {fileID: 21300000, guid: d2895f3813ed8cf4c80b1fa201697100, type: 3}
   m_consequences:

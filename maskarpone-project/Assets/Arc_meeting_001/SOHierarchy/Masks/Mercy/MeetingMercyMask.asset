@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421d562beae6a1c41a2a3ebf5b32b7f2, type: 3}
   m_Name: MeetingMercyMask
   m_EditorClassIdentifier: Assembly-CSharp::MaskSO
-  m_maskIcon: {fileID: 21300000, guid: bc1543255093e934ca174d391879f295, type: 3}
+  m_maskIcon: {fileID: 21300000, guid: 9da9bd7333254c44cb66a3a9e2ffc525, type: 3}
   m_maskName: "Piti\xE9"
   m_mask3DSprite: {fileID: 21300000, guid: 7b85be460fc413a439f910a7b0eea97b, type: 3}
   m_consequences:
