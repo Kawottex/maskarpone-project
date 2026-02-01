@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421d562beae6a1c41a2a3ebf5b32b7f2, type: 3}
+  m_Name: CafetPostLiftPresseMask
+  m_EditorClassIdentifier: Assembly-CSharp::MaskSO
+  m_maskIcon: {fileID: 21300000, guid: ed2bea24d44b158479e07f925d4748db, type: 3}
+  m_maskName: Presse
+  m_mask3DSprite: {fileID: 21300000, guid: 3f2fda52554a6f246b10c5e1cc1b0c78, type: 3}
+  m_consequences:
+  - {fileID: 11400000, guid: 8ff4df06c4225364a9ba612f54b398b9, type: 2}
+  m_answer: {fileID: 11400000, guid: 0828995818129794b9a89c8dbd7291ba, type: 2}

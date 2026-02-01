@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fffc8aa1196c48c4d92bd06b01e3466d, type: 3}
-  m_Name: MarieConsequence
-  m_EditorClassIdentifier: Assembly-CSharp::ConsequenceSO
-  m_valueToAdd: 1
+  m_Script: {fileID: 11500000, guid: efc149875a859b94f93a9c08b2f0d99b, type: 3}
+  m_Name: SORHSpeedrunPlace
+  m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
+  m_name: RH speedrun
+  m_loadedScene: {fileID: 102900000, guid: c5cb773500605eb459124f672bae1015, type: 3}

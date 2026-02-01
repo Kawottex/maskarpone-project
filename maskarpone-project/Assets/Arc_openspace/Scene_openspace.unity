@@ -555,7 +555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6818032562341450091, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: orthographic size
-      value: 3.75
+      value: 2.17
       objectReference: {fileID: 0}
     - target: {fileID: 7901792812367435650, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -879,6 +879,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+--- !u!1 &1081385615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4532245108764033940, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
+  m_PrefabInstance: {fileID: 1081385612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1219914164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1219914166}
+  - component: {fileID: 1219914165}
+  m_Layer: 0
+  m_Name: EndGameFlow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1219914165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219914164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1128c2ae0645d954ab319f0e06eebdde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EndGameFlowManager
+  m_consequences:
+  - {fileID: 11400000, guid: ec43849230b66f24db1b878dbd343457, type: 2}
+  - {fileID: 11400000, guid: 8b7b73c779fae6b4081fa30c98604a03, type: 2}
+  - {fileID: 11400000, guid: 8ff4df06c4225364a9ba612f54b398b9, type: 2}
+  - {fileID: 11400000, guid: a826316bdd75677489bcca8b4656d1aa, type: 2}
+  m_sceneConsequences:
+  - m_consequence: {fileID: 11400000, guid: ec43849230b66f24db1b878dbd343457, type: 2}
+    m_scene: {fileID: 102900000, guid: f7839239f255a474d8a1046db69252d8, type: 3}
+  - m_consequence: {fileID: 11400000, guid: 8b7b73c779fae6b4081fa30c98604a03, type: 2}
+    m_scene: {fileID: 102900000, guid: 0a5e471a5836a714b90f849d9d12d26e, type: 3}
+  - m_consequence: {fileID: 11400000, guid: 8ff4df06c4225364a9ba612f54b398b9, type: 2}
+    m_scene: {fileID: 102900000, guid: 0fb77e521ea1c0f488a60d5610ffb896, type: 3}
+  - m_consequence: {fileID: 11400000, guid: a826316bdd75677489bcca8b4656d1aa, type: 2}
+    m_scene: {fileID: 102900000, guid: 0e09a117f3ac17c4eb88ea1084e88b85, type: 3}
+  m_flowManager: {fileID: 1715010404}
+--- !u!4 &1219914166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219914164}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.06865, y: 0.18829, z: -6.09836}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1349530124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1238,11 +1302,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe16989b5edcc6459f0a1dda3283d8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlowManager
-  m_currentSituation: {fileID: 11400000, guid: 9fae758209e5dda4483869b822a24ea7, type: 2}
+  m_currentSituation: {fileID: 11400000, guid: a1c653cf94902a744803b906261a16d9, type: 2}
   m_playableDirector: {fileID: 1497659167}
   m_maskUIRoot: {fileID: 1349530126}
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
-  m_maskRoot: {fileID: 0}
+  m_maskRoot: {fileID: 1081385615}
+  m_isBeforeFinalScene: 1
 --- !u!1 &1889779699
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,3 +1376,4 @@ SceneRoots:
   - {fileID: 1889779701}
   - {fileID: 888474199}
   - {fileID: 206469799}
+  - {fileID: 1219914166}

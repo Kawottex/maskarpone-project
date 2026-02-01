@@ -15,5 +15,6 @@ MonoBehaviour:
   m_maskIcon: {fileID: 21300000, guid: bd537ffbf6f481c47b542b364a4122f4, type: 3}
   m_maskName: Serious
   m_mask3DSprite: {fileID: 21300000, guid: eab814bb678e00a4082e46c4c8bd8300, type: 3}
-  m_consequences: []
+  m_consequences:
+  - {fileID: 11400000, guid: 8ff4df06c4225364a9ba612f54b398b9, type: 2}
   m_answer: {fileID: 11400000, guid: a57a33f38db90174ab415a8b6f30e7bd, type: 2}

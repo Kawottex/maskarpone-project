@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnswerSO
   m_timelineToLoad: {fileID: 11400000, guid: dff959c2697422241945c7f6d4e5786b, type: 2}
   m_nextSituationList:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 1cba8512f734ce8498d972b93facbfc8, type: 2}

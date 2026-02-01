@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
@@ -21,6 +22,11 @@ public class FlowManager : MonoBehaviour
     [SerializeField]
     private GameObject m_maskRoot = null;
 
+    [SerializeField]
+    private bool m_isBeforeFinalScene = false;
+
+    private EndGameFlowManager m_endGameFlowManager = null;
+
     private void Start()
     {
         StartCoroutine(MainFlow());
@@ -30,7 +36,14 @@ public class FlowManager : MonoBehaviour
     {
         m_playableDirector.Play();
         yield return new WaitWhile(() => m_playableDirector.state == PlayState.Playing);
-        DisplayMasks();
+        if (m_isBeforeFinalScene)
+        {
+            EndGameFlow();
+        }
+        else
+        {
+            DisplayMasks();
+        }
     }
 
     private void DisplayMasks()
@@ -94,5 +107,17 @@ public class FlowManager : MonoBehaviour
         string currentSceneName = m_currentSituation.Place.LoadedScene.name;
         string nextSceneName = nextSituation.Place.LoadedScene.name;
         SceneLoader.Instance.SwitchScene(currentSceneName, nextSceneName);
+    }
+
+    public void RegisterEndGameFlowManager(EndGameFlowManager endGameFlowManager)
+    {
+        m_endGameFlowManager = endGameFlowManager;
+    }
+
+    private void EndGameFlow()
+    {
+        string currentSceneName = m_currentSituation.Place.LoadedScene.name;
+        SceneAsset finalScene = m_endGameFlowManager.GetFinalSceneToLoad();
+        SceneLoader.Instance.SwitchScene(currentSceneName, finalScene.name);
     }
 }

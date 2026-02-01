@@ -6,7 +6,8 @@ public class ConsequenceSO : ScriptableObject
     [SerializeField]
     private int m_valueToAdd = 1;
 
-    private int m_value = 0;
+
+    public int m_value { get; private set; } = 0;
 
     public void TriggerAddedValue()
     {
