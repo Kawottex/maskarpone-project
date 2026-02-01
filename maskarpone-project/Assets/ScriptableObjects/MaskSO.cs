@@ -18,8 +18,8 @@ public class MaskSO : ScriptableObject
     public Sprite Mask3DSprite { get => m_mask3DSprite; }
 
     [SerializeField]
-    private List<BoolSO> m_consequences = new List<BoolSO>();
-    public List<BoolSO> Consequences { get => m_consequences; }
+    private List<ConsequenceSO> m_consequences = new List<ConsequenceSO>();
+    public List<ConsequenceSO> Consequences { get => m_consequences; }
 
     [SerializeField]
     private AnswerSO m_answer;

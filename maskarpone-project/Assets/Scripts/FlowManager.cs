@@ -40,6 +40,10 @@ public class FlowManager : MonoBehaviour
 
     public IEnumerator TriggerMaskSelected(MaskSO selectedMask)
     {
+        foreach (ConsequenceSO consequence in selectedMask.Consequences)
+        {
+            consequence.TriggerAddedValue();
+        }
         yield return Spawn3DMaskOnPlayer(selectedMask);
         m_playableDirector.playableAsset = selectedMask.Answer.TimelineToLoad;
         m_playableDirector.Play();
