@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
-    volume: 1
+    volume: 0.7
 --- !u!74 &-3543740025621840782
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 5.4
+    m_Start: 5.033333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -5642623493939600960}
     m_Duration: 5.04

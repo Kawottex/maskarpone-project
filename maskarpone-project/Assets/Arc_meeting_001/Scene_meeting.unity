@@ -393,6 +393,7 @@ MonoBehaviour:
   m_maskUIRoot: {fileID: 663912164}
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
   m_maskRoot: {fileID: 1560911157}
+  m_isBeforeFinalScene: 0
 --- !u!1 &648222618
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,10 +581,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaskUIRoot
       objectReference: {fileID: 0}
+    - target: {fileID: 1195204655396135104, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 4140782261678865068, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876537776067051925, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6121911039416099646, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000015258789
+      objectReference: {fileID: 0}
     - target: {fileID: 7096550965353439879, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
       propertyPath: m_flowManager
       value: 
       objectReference: {fileID: 536873864}
+    - target: {fileID: 8587723451734825874, guid: 7892e8505fd0820439b5f5773f1ebc90, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -717,11 +738,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor.a
-      value: 0
+      value: 0.00000017881393
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 16777215
       objectReference: {fileID: 0}
     - target: {fileID: 3625183496087314904, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -849,7 +870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor.a
-      value: 0
+      value: 0.00000017881393
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -1262,6 +1283,8 @@ PlayableDirector:
     - 0aeebf20bcea1744f9d32a6c984a2664: {fileID: 1550940616}
     - 8099d81e0be08354689cf5a346060ef4: {fileID: 0}
     - 13f2e85c6f0bae442ac81e625c57f707: {fileID: 0}
+    - a77505f93b178e1438f46867034d073b: {fileID: 1550940616}
+    - 33f2b6510b8d60348b88a5bcc2fd56b0: {fileID: 47274388}
     - f1f806116463bae40a94409ebf1f4134: {fileID: 0}
     - c5801379df913b44f9163229cc3ce548: {fileID: 0}
     - ba0e83b53e05a6c40a52c2848ad21eda: {fileID: 0}
@@ -1269,6 +1292,7 @@ PlayableDirector:
     - 2eab28f80a1d8334096c132065d1d240: {fileID: 0}
     - fba53fd807b93aa4e93d5ab8f2446085: {fileID: 47274388}
     - 6cf300247c9f7cb4dbe2d5838c5b6332: {fileID: 47274388}
+    - dd53343888d4722459d095742a6030c4: {fileID: 47274388}
     - 386c8abc8f963084e996969101247bce: {fileID: 0}
     - 549a89424a69e4141a8ba7d4261d016b: {fileID: 0}
     - 3fc3ececcb63b524b90fb37a8f1aef3a: {fileID: 0}

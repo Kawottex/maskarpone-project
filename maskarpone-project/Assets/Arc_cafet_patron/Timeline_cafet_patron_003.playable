@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8416874957930328726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39446dcb8cb2aac4ea21e248d1bd7c04, type: 3}
+  m_Name: SubtitleClip(Clone)(Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::SubtitleClip
+  m_user: Narrateur
+  m_text: "Apr\xE8s cela, le patron vous emm\xE8ne directement au bureau de la RH."
 --- !u!114 &-7082229771317068387
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -32,7 +46,7 @@ MonoBehaviour:
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: d4b55bff5242e2b47877cc66fc26a069, type: 2}
---- !u!114 &-6630307627149669884
+--- !u!114 &-5022096405460583682
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,7 +58,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
   m_Name: AudioPlayableAsset
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioPlayableAsset
-  m_Clip: {fileID: 8300000, guid: 4d56d719c6711ff4091b91bb6b5d4804, type: 3}
+  m_Clip: {fileID: 8300000, guid: a39647140a0dd524aa761695ff5ba797, type: 3}
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
@@ -366,10 +380,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Voice_narrator
   - m_Version: 1
-    m_Start: 6.283333333333333
+    m_Start: 9.399999999999999
     m_ClipIn: 3.333333333333334
     m_Asset: {fileID: 5834365286650147795}
-    m_Duration: 4.433333333333334
+    m_Duration: 2.5166666666666675
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2448985955438924170}
     m_EaseInDuration: 0
@@ -435,9 +449,8 @@ MonoBehaviour:
   m_Name: SubtitleClip
   m_EditorClassIdentifier: Assembly-CSharp::SubtitleClip
   m_user: Narrateur
-  m_text: "Vous faites tout ce qui est de votre possible pour retenir l'ennui afin
-    qu'il ne se voit sur votre visage mais trop tard : un baillement sauvage & bruyant
-    s'\xE9chappe de votre bouche. Votre boss n'a pas l'air d'appr\xE9cier."
+  m_text: Vous faites tout ce qui est de votre possible pour le retenir mais trop
+    tard.
 --- !u!114 &-488064579771963220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -571,7 +584,76 @@ MonoBehaviour:
     m_Start: 3.4468198930844665
     m_ClipIn: 0
     m_Asset: {fileID: -587234237042390140}
-    m_Duration: 8.816666666666666
+    m_Duration: 3.6698467735822
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 3376770206934942069}
+    m_EaseInDuration: 1
+    m_EaseOutDuration: 0.5
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SubtitleClip
+  - m_Version: 1
+    m_Start: 9.399999999999999
+    m_ClipIn: 0
+    m_Asset: {fileID: -8416874957930328726}
+    m_Duration: 3.2333333333333343
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3376770206934942069}
     m_EaseInDuration: 1
@@ -676,10 +758,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 4.533333333333333
+    m_Start: 6.525333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: -6630307627149669884}
-    m_Duration: 5.564081632653061
+    m_Asset: {fileID: -5022096405460583682}
+    m_Duration: 1.608
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5146697163122685421}
     m_EaseInDuration: 0
@@ -743,7 +825,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: yawning-man-106482
+    m_DisplayName: burp-44802
   m_Markers:
     m_Objects: []
   m_TrackProperties:
@@ -792,13 +874,13 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -7082229771317068387}
-    m_Duration: 13.216666666666667
+    m_Duration: 13.433333333333334
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6245041437144174022}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0.5833333333333339
+    m_BlendOutDuration: 0.45000000000000107
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -858,15 +940,15 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Cinemachine_camera
   - m_Version: 1
-    m_Start: 12.633333333333333
+    m_Start: 12.983333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 4679879474537472146}
-    m_Duration: 1.0999999999999996
+    m_Duration: 0.7666666666666675
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6245041437144174022}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.5833333333333339
+    m_BlendInDuration: 0.45000000000000107
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
