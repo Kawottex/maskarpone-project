@@ -338,6 +338,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+--- !u!1 &241442582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4597498572041117943, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
+  m_PrefabInstance: {fileID: 241442579}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &530829376
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,7 +391,7 @@ MonoBehaviour:
   m_playableDirector: {fileID: 1760166487}
   m_maskUIRoot: {fileID: 2113835784}
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
-  m_miiObject: {fileID: 241442581}
+  m_miiObject: {fileID: 241442582}
 --- !u!1 &607806718
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,6 +766,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_dialogue
       objectReference: {fileID: 0}
+    - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+      propertyPath: m_text
+      value: "*Vous vous rendez compte que votre r\xE9union commence dans 5 min.\\nVous
+        devez choisir le p"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3625183496087314904, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -880,6 +894,18 @@ PrefabInstance:
     - target: {fileID: 8139493517919347791, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+      propertyPath: m_text
+      value: Narrateur
+      objectReference: {fileID: 0}
+    - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 16777215
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
