@@ -760,18 +760,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_dialogue
       objectReference: {fileID: 0}
-    - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_fontColor.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 939524095
-      objectReference: {fileID: 0}
     - target: {fileID: 3625183496087314904, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -802,10 +790,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5343290114273408594, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343290114273408594, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5343290114273408594, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
@@ -891,14 +875,6 @@ PrefabInstance:
     - target: {fileID: 8139493517919347791, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_fontColor.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 16777215
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1285,6 +1261,10 @@ PlayableDirector:
   - key: {fileID: 1926361730471370688, guid: 52a65875cbf883d4aa94858afebb280b, type: 2}
     value: {fileID: 778360790}
   - key: {fileID: 6835554036103706710, guid: db8b1a5905d3e7245928b66999f26bd9, type: 2}
+    value: {fileID: 241442581}
+  - key: {fileID: -3151713243880711748, guid: 4affc9485b5e9784782631ecaf7c6e0c, type: 2}
+    value: {fileID: 241442581}
+  - key: {fileID: 6120638772107923537, guid: 52a65875cbf883d4aa94858afebb280b, type: 2}
     value: {fileID: 241442581}
   m_ExposedReferences:
     m_References:
