@@ -14,12 +14,8 @@ public class SituationSO : ScriptableObject
     public PlaceSO Place { get => m_place; }
 
     [SerializeField]
-    private DialogueSO m_introDialogue;
-    public DialogueSO IntroDialogue { get => m_introDialogue; }
-
-    [SerializeField]
     private List<MaskSO> m_availableMasks = new List<MaskSO>();
-    private List<MaskSO> AvailableMasks { get => m_availableMasks; }
+    public List<MaskSO> AvailableMasks { get => m_availableMasks; }
 
     public bool HasConditions()
     {

@@ -318,11 +318,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6818032562341450091, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: field of view
-      value: 74.6
+      value: 60.000004
       objectReference: {fileID: 0}
     - target: {fileID: 6818032562341450091, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: orthographic size
-      value: 0.75
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 7901792812367435650, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -330,11 +330,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7901792812367435650, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.05
+      value: 2.06
       objectReference: {fileID: 0}
     - target: {fileID: 7901792812367435650, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6
+      value: -2.231
       objectReference: {fileID: 0}
     - target: {fileID: 7901792812367435650, guid: c3b6701ece5529f4a8aba0db42ac4e8a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1375,6 +1375,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_dialogue
       objectReference: {fileID: 0}
+    - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2433962351504824716, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1531,49 +1539,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4271207069069657290, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1032407209}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
 --- !u!224 &1032407206 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8139493517919347791, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
   m_PrefabInstance: {fileID: 1032407205}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1032407207 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4271207069069657290, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
-  m_PrefabInstance: {fileID: 1032407205}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1032407208 stripped
+--- !u!114 &1032407207 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3074508576084125538, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
+  m_CorrespondingSourceObject: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
   m_PrefabInstance: {fileID: 1032407205}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032407207}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
---- !u!114 &1032407209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032407207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ContentSizeFitter
-  m_HorizontalFit: 0
-  m_VerticalFit: 0
 --- !u!1 &1034159387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2632,7 +2622,7 @@ PlayableDirector:
   - key: {fileID: -1548242826129496416, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
     value: {fileID: 1763166063}
   - key: {fileID: -1317062235428110973, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
-    value: {fileID: 1032407208}
+    value: {fileID: 1032407207}
   - key: {fileID: -1998399937569737163, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
     value: {fileID: 1385909457}
   - key: {fileID: 216012127505179259, guid: bb21f24ab29be4845b1c97ddb75c2daf, type: 2}
