@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Arc_cafet_post_lift/Scene_cafet_post_lift.unity
     guid: 25b7c4134eb31bd4aaa20580ecb8351d
+  - enabled: 1
+    path: Assets/Arc_meeting_sexism/Scene_meeting_sexism.unity
+    guid: 258d815fb52407a4e926b4a95fc0642b
+  - enabled: 1
+    path: Assets/Arc_cafet_solo/Scene_cafet_solo.unity
+    guid: 25ea6c9447e381345a681b43158beefe
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efc149875a859b94f93a9c08b2f0d99b, type: 3}
+  m_Name: SOMeetingSexismPlace
+  m_EditorClassIdentifier: Assembly-CSharp::PlaceSO
+  m_name: Meeting Sexism
+  m_loadedScene: {fileID: 102900000, guid: 258d815fb52407a4e926b4a95fc0642b, type: 3}

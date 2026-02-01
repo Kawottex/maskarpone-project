@@ -392,6 +392,7 @@ MonoBehaviour:
   m_playableDirector: {fileID: 1846710476}
   m_maskUIRoot: {fileID: 663912164}
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
+  m_maskRoot: {fileID: 1560911157}
 --- !u!1 &648222618
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,7 +853,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8549150738216532512, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 16777215
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1052,6 +1053,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+--- !u!1 &1560911157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4532245108764033940, guid: c93a898c1d5e2e94a9020decd6419008, type: 3}
+  m_PrefabInstance: {fileID: 1560911154}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1646579346
 GameObject:
   m_ObjectHideFlags: 0

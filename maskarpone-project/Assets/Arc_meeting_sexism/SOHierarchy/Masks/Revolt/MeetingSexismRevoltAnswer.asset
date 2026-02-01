@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 211e7f033140cfb4ab5151cc718927bc, type: 3}
-  m_Name: MeetingBootlickerAnswer
+  m_Name: MeetingSexismRevoltAnswer
   m_EditorClassIdentifier: Assembly-CSharp::AnswerSO
-  m_timelineToLoad: {fileID: 11400000, guid: 0d5ea03daa606b24195a474cd9b90e24, type: 2}
-  m_nextSituationList:
-  - {fileID: 0}
+  m_timelineToLoad: {fileID: 11400000, guid: c7405009826b9a14a8609f0078525b17, type: 2}
+  m_nextSituationList: []
