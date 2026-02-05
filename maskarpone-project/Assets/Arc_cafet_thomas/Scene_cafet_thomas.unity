@@ -232,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2045200880604367717, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 218103807
+      value: 16777215
       objectReference: {fileID: 0}
     - target: {fileID: 3625183496087314904, guid: b0eb4cddba597494f8f8a65479e90f8f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1234,6 +1234,7 @@ MonoBehaviour:
   m_3DMaskPrefab: {fileID: 430508044189544353, guid: bff4c9e719fe3cb42aa3cb4d1e812f9a, type: 3}
   m_maskRoot: {fileID: 1081385615}
   m_isBeforeFinalScene: 0
+  m_isFinalScene: 0
 --- !u!1 &1889779699
 GameObject:
   m_ObjectHideFlags: 0

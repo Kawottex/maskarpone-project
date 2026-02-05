@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "ConsequenceSO", menuName = "Scriptable Objects/ConsequenceSO")]
@@ -12,5 +13,10 @@ public class ConsequenceSO : ScriptableObject
     public void TriggerAddedValue()
     {
         m_value += m_valueToAdd;
+    }
+
+    internal void ResetValue()
+    {
+        m_value = 0;
     }
 }

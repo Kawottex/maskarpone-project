@@ -15,5 +15,5 @@ MonoBehaviour:
   m_conditions: []
   m_place: {fileID: 11400000, guid: 77339e7b057441846b5f1b9fd4b5f26a, type: 2}
   m_availableMasks:
-  - {fileID: 11400000, guid: 971caf08c3a5b3340a84df9980301661, type: 2}
-  - {fileID: 11400000, guid: 5e49cee7db867eb4f800462d1ed94060, type: 2}
+  - {fileID: 11400000, guid: 9c607dc4dbd6fb940a9bac749346ff54, type: 2}
+  - {fileID: 11400000, guid: fdd5da80e2396f846be428b174a458a8, type: 2}
