@@ -1,9 +1,6 @@
-using System;
 using System.Collections;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.Playables;
-using UnityEngine.SceneManagement;
 
 public class FlowManager : MonoBehaviour
 {
@@ -30,8 +27,17 @@ public class FlowManager : MonoBehaviour
 
     private EndGameFlowManager m_endGameFlowManager = null;
 
+    private SubtitleController SubtitleController { get; set; } = null;
+
+    private void Awake()
+    {
+        SubtitleController = gameObject.AddComponent<SubtitleController>();
+        SubtitleController.Director = m_playableDirector;
+    }
+
     private void Start()
     {
+
         StartCoroutine(MainFlow());
     }
 
